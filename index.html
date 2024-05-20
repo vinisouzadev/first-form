@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+
+	<head>
+		<title>Título do meu website</title>
+		<meta charset="utf-8" />
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		
+		<form>
+			<fieldset>
+				<legend>Cadastro de cliente</legend>
+				<div class="nome campo-form"><input type="text" name="nome" placeholder="Digite seu nome"></div>
+				<div class="e-mail campo-form"><input type="text" name="e-mail" placeholder="Digite seu e-mail"></div>
+				<div class="idade campo-form">
+					<select name="lista">
+						<option disabled selected>Qual sua idade?</option>
+						<option>19 ou menos</option>
+						<option>20+</option>
+						<option>30+</option>
+						<option>40+</option>
+					</select>
+				</div>
+
+
+				<div class="cidades campo-form">
+					<h2 class="titulo">Qual sua cidade?</h2>
+					<div class="check-selection">
+						<div>
+							<input type="radio" name="cidade" value=""><span> Sacramento</span>
+						</div>
+						<div>
+							<input type="radio" name="cidade" value=""><span> Manhuaçu</span>
+						</div>
+						<div>
+							<input type="radio" name="cidade" value=""><span> Caratinga</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="qual-compra campo-form">
+					<h2 class="titulo">Qual a compra?</h2>
+					<div class="check-selection">
+						<div>
+							<input type="checkbox" value=""><span> Celular</span>
+						</div>
+						<div>
+							<input type="checkbox" value=""><span> Manutenção</span>
+						</div>
+						<div>
+							<input type="checkbox" value=""><span> Outros</span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="text-area-form campo-form">
+					<textarea name="text-area-input" placeholder="Observações de cadastro"></textarea>
+				</div>
+
+				<div class="enviar-form">
+					<input type="submit" name="enviar-form-input" value="Enviar">
+				</div>
+			</fieldset>
+		</form>
+		
+		<div class="pqeuquero"></div>
+	</body>
+
+
+
+
+</html>

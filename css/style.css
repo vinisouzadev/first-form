@@ -1,0 +1,91 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+
+html,body{
+  height:100%;
+}
+
+.titulo{
+	margin-bottom: 15px;
+	font-size: 20px;
+} /*Gera propriedades para todos os títulos exceto legend */
+
+form{
+	width: 96%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+form > fieldset{
+	padding: 20px 40px;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.campo-form{
+	margin-bottom: 20px;
+}
+
+form > fieldset > div > input[type="text"]{
+	width: 80%;
+	padding: 9px 13px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-family: tahoma;
+}
+
+form > fieldset > div > select{
+	width:calc(80% + 28px);
+	padding: 10px 13px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	font-family: tahoma;
+}
+
+form > fieldset > div > select:hover{
+	border: 1px solid;
+}
+
+.cidades input{
+	margin-bottom: 7px;
+}
+.check-selection{
+	display: inline-block;
+	text-align: left;
+	font-family: tahoma;
+}
+
+.text-area-form textarea{
+	resize: none;
+	width:80%;
+	padding: 10px 13px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-family: tahoma;
+}
+
+.enviar-form > input[type="submit"]{
+	margin-top: 20px;
+	width: 20%;
+	padding: 10px 10px;
+	background-color: rgb(60, 148, 60);
+	color: white;
+	font-style: bold;
+	border: 1px solid green;
+	border-radius: 7px;
+	cursor: pointer;
+	font-family: tahoma;
+}
+
+
+.pqeuquero{
+	margin-top: 20px;
+	height: 20px;
+} 
